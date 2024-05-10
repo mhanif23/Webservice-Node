@@ -34,7 +34,6 @@ Anda dapat menggunakan perangkat lunak seperti [Postman](https://www.postman.com
 
 ## Struktur Data DB
 
-
     ```bash
     -- Create table untuk produk laptop
     CREATE TABLE laptops (
