@@ -34,8 +34,9 @@ Anda dapat menggunakan perangkat lunak seperti [Postman](https://www.postman.com
 
 ## Struktur Data DB
 
--- Create table untuk produk laptop
+
     ```bash
+    -- Create table untuk produk laptop
     CREATE TABLE laptops (
         id INT AUTO_INCREMENT PRIMARY KEY,
         brand VARCHAR(255) NOT NULL,
@@ -48,8 +49,7 @@ Anda dapat menggunakan perangkat lunak seperti [Postman](https://www.postman.com
         price DECIMAL(10, 2) NOT NULL
     );
 
--- Insert data 20 laptop
-    ```bash
+    -- Insert data 20 laptop
     INSERT INTO laptops (brand, model, processor, ram, storage, display_size, graphics_card, price) VALUES
     ('Acer', 'Aspire 5', 'Intel Core i5', '8GB', '512GB SSD', 15.6, 'Intel UHD Graphics 620', 599.99),
     ('ASUS', 'VivoBook 15', 'AMD Ryzen 5', '8GB', '512GB SSD', 15.6, 'AMD Radeon Vega 8', 649.99),
